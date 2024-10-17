@@ -1,4 +1,4 @@
- Deployment Instructions: Google Cloud Platform
+ #Deployment Instructions: Google Cloud Platform
   # Deployment on Google Cloud Platform (GCP)
  1. Set up a new project on GCP and enable Cloud Run and Firestore.
  2. Install the Google Cloud SDK: https://cloud.google.com/sdk/docs/install
