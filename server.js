@@ -1,4 +1,5 @@
 // server.js
+ //Backend: Express API Server
  const express = require('express');
  const mongoose = require('mongoose');
  const Product = require('./models/Product');
