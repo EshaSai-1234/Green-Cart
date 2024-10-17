@@ -1,4 +1,5 @@
 # Green-Cart
+//Frontend: Next.js Product List Page
 // pages/index.js
  import { useState, useEffect } from 'react';
  export default function Home() {
