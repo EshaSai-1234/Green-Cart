@@ -1,0 +1,13 @@
+ Deployment Instructions: Google Cloud Platform
+  # Deployment on Google Cloud Platform (GCP)
+ 1. Set up a new project on GCP and enable Cloud Run and Firestore.
+ 2. Install the Google Cloud SDK: https://cloud.google.com/sdk/docs/install
+ 3. Authenticate with your GCP account: `gcloud auth login`
+ 4. Deploy the backend to Cloud Run:
+   ```
+   gcloud run deploy greencart-backend --source . --platform managed --region
+ us-central1
+   ```
+5. Set up MongoDB on Atlas and connect it to the backend.
+ 6. Configure environment variables for Stripe keys and MongoDB URI in Cloud Run.
+ 7. Test the deployment and ensure the frontend and backend communicate smoothly
