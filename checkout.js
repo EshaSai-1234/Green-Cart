@@ -1,4 +1,4 @@
- Backend: Stripe Payment Integration
+ //Backend: Stripe Payment Integration
  // routes/checkout.js
  const express = require('express');
  const router = express.Router();
